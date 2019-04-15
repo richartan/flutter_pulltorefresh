@@ -353,6 +353,7 @@ class _SmartRefresherState extends State<SmartRefresher> {
                       enableOverScroll: widget.enableOverScroll),
                   controller: _scrollController,
                   slivers: slivers,
+                  cacheExtent: widget.cacheExtent,
                 ),
                 onNotification: _dispatchScrollEvent,
               )),
